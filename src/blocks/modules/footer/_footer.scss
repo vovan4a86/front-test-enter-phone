@@ -1,0 +1,22 @@
+footer {
+  background: #F4F4F4;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #8D8D8D;
+  text-decoration: none;
+  height: 50px;
+
+  .img {
+    flex-grow: 1;
+  }
+
+  span {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+}

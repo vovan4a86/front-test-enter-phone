@@ -1,0 +1,99 @@
+.content {
+  padding-top: 60px;
+  margin-top: 60px;
+  height: 100vh;
+}
+.amodal {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 10px 10px 25px 10px;
+  box-shadow: 0 2px 4px 1px #000000;
+
+  @media (max-width: 321px) {
+    box-shadow: none
+  }
+}
+.modal-header {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+.modal-text {
+  font-size: 12px;
+}
+.phone {
+  margin-top: 15px;
+  position: relative;
+  border: 1px solid #2397EF;
+  padding: 15px 5px 5px;
+
+  input {
+    display: block;
+    border: none;
+    font-size: 14px;
+  }
+  input:focus, input:active {
+    outline: none;
+  }
+}
+.phlabel {
+    color: #8D8D8D;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 10px;
+}
+.code-field {
+  margin-top: 15px;
+  border: 1px solid #2397EF;
+  input {
+    border: none;
+    padding: 8px 5px;
+  }
+  input:focus, input:active {
+    outline: none;
+  }
+}
+.send, .reg {
+  width: 100%;
+  margin-top: 25px;
+  border: #2397EF;
+  background: #2397EF;
+  color: #fff;
+  padding: 10px 10px;
+}
+.reg {
+  margin-top: 10px;
+}
+.error, .code-error {
+  color: red;
+  font-size: 10px;
+}
+#newcode {
+  display: block;
+  text-align: center;
+  color: #8D8D8D;
+  font-size: 10px;
+}
+.code-text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: #333333;
+}
+.border-error {
+  border: 1px solid red;
+}
+
+.enter-code {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

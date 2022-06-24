@@ -1,0 +1,22 @@
+header {
+  z-index: 10;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.menu {
+  a {
+    color: #0e0e0e;
+    text-decoration: none;
+  }
+}
+.header-phone {
+  color: orange;
+  text-decoration: none;
+  border-bottom: 1px dotted orange;
+}
+.phone:hover {
+  color: #a1792d;
+}

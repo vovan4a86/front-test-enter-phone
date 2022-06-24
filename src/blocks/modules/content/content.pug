@@ -1,0 +1,22 @@
+.content
+  .amodal.auth
+    form(method="post" action="").form-auth
+      span.modal-header Войдите или зарегистрируйтесь, чтобы продолжить
+      .phone
+        label(for="phone-number").phlabel Телефон
+        input(type="tel" id="phone-number" placeholder="+7" name="phone" pattern="^(\\+7) \\(\\d{3}\\) \\d{3} \\d{4}$" required).tel
+      label.error
+      button(type="submit").send Получить код
+
+  .amodal.enter-code
+    form(method="get" action="/").form-reg
+      span.modal-header Введите код
+      span.modal-text Мы отправили код на номер +7 111 111 11 11
+      .code-field
+        input(type="tel" id="code" placeholder="Введите код" maxlength="4" name="code" pattern="^\\d{4}$" required)
+      label.code-error
+      label#newcode Получить новый код можно через #время#
+      button(type="submit").reg Зарегистрироваться
+
+      p.code-text Нажав кнопку “Зарегистрироваться”, вы даёте согласие на обработку персональных данных в соответствии с <a href="#" target="_blanc">политикой конфиденциальности</a>
+
